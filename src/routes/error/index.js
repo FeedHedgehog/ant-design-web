@@ -1,12 +1,11 @@
-import React from 'react'
-import { Icon } from 'antd'
-import styles from './index.less'
+import { Button, notification } from 'antd';
 
-const Error = () => (<div className="content-inner">
-  <div className={styles.error}>
-    <Icon type="frown-o" />
-    <h1>404 Not Found</h1>
-  </div>
-</div>)
+const Error = (type) => {
+  notification[type]({
+    message: '提示',
+    description: '登录失败，请输入正确的用户名和密码！',
+  });
+};
 
-export default Error
+
+export default Error('error')

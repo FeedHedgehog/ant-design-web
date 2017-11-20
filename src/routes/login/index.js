@@ -54,8 +54,7 @@ const Login = ({
             登录
           </Button>
           <p>
-            <span>用户名：guest</span>
-            <span>密码：guest</span>
+            忘记密码请联系管理员：028-373283372
           </p>
         </Row>
 
