@@ -22,7 +22,7 @@ const queryArray = (array, key, keyAlias = 'key') => {
 
 const NOTFOUND = {
   message: 'Not Found',
-  documentation_url: 'http://localhost:8000/request',
+  documentation_url: 'http://localhost:8001/request',
 }
 
 

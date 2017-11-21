@@ -24,7 +24,7 @@ function User ({ avatar, name, email, sales, sold }) {
     </div>
     <div className={styles.number}>
       <div className={styles.item}>
-        <p>EARNING SALES</p>
+        <p>收益</p>
         <p style={{ color: color.green }}><CountUp
           end={sales}
           prefix="$"
@@ -32,7 +32,7 @@ function User ({ avatar, name, email, sales, sold }) {
         /></p>
       </div>
       <div className={styles.item}>
-        <p>ITEM SOLD</p>
+        <p>卖出的份额</p>
         <p style={{ color: color.blue }}><CountUp
           end={sold}
           {...countUpProps}
@@ -40,7 +40,7 @@ function User ({ avatar, name, email, sales, sold }) {
       </div>
     </div>
     <div className={styles.footer}>
-      <Button type="ghost" size="large">View Profile</Button>
+      <Button type="ghost" size="large">查看简介</Button>
     </div>
   </div>)
 }

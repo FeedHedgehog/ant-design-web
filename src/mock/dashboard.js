@@ -57,11 +57,11 @@ const Dashboard = Mock.mock({
     },
   ],
   user: {
-    name: 'zuiidea',
-    email: 'zuiiidea@.gmail.com',
+    name: 'Jason Kiscy',
+    email: '1424870395@.qq.com',
     sales: 3241,
     sold: 3556,
-    avatar: 'http://tva4.sinaimg.cn/crop.0.0.996.996.180/6ee6a3a3jw8f0ks5pk7btj20ro0rodi0.jpg',
+    avatar: 'https://avatars1.githubusercontent.com/u/7788700?s=400&u=40e78cb5ab38c24c2b7fb7e47f501f6c34d702c8&v=4',
   },
   'completed|12': [
     {
@@ -95,10 +95,10 @@ const Dashboard = Mock.mock({
     },
   ],
   quote: {
-    name: 'Joho Doe',
-    title: 'Graphic Designer',
+    name: 'liulu',
+    title: 'Coder Designer',
     content: 'I\'m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can\'t handle me at my worst, then you sure as hell don\'t deserve me at my best.',
-    avatar: 'http://img.hb.aicdn.com/bc442cf0cc6f7940dcc567e465048d1a8d634493198c4-sPx5BR_fw236',
+    avatar: 'https://avatars1.githubusercontent.com/u/7788700?s=400&u=40e78cb5ab38c24c2b7fb7e47f501f6c34d702c8&v=4',
   },
   numbers: [
     {

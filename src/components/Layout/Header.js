@@ -48,7 +48,7 @@ const Header = ({ user, logout, switchSider, siderFold, isNavbar, menuPopoverVis
             </span>}
           >
             <Menu.Item key="logout">
-              Sign out
+              注销
             </Menu.Item>
           </SubMenu>
         </Menu>

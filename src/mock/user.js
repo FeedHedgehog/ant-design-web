@@ -61,7 +61,12 @@ const adminUsers = [
     username: '吴彦祖',
     password: '123456',
     permissions: userPermission.DEVELOPER,
-  },
+  },{
+  id: 3,
+  username: '刘璐',
+  password: 'liulu',
+  permissions: userPermission.DEVELOPER,
+},
 ]
 
 const queryArray = (array, key, keyAlias = 'key') => {

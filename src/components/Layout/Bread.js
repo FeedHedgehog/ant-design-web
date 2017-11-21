@@ -29,7 +29,7 @@ const Bread = ({ menu, location }) => {
     pathArray.push(menu[0] || {
       id: 1,
       icon: 'laptop',
-      name: 'Dashboard',
+      name: '首页',
     })
     pathArray.push({
       id: 404,
