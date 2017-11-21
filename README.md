@@ -9,6 +9,11 @@
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
+## 目的
+ -期望打造一套基于react，ant-design，dva于一体的、企业级后台管理系统
+ -期望可以单纯由前端来解决用户权限，后端提供权限数据支持的一套完善的权限管理功能后台管理系统
+ -期望可以在antd与dva的基础上，再次封装简单且可复用的基类组件，方便使用者简单接入，简单使用，简单拓展
+
 演示地址 <http://huntjobs.cn>
 
 ## 特性
@@ -52,8 +57,6 @@
 -     更新`eslint`，并适当修改了`.eslintrc`。
 
 
-[More Change Log](https://github.com/zuiidea/antd-admin/wiki/Change-Log)
-
 ## 开发构建
 
 ### 目录结构
@@ -95,7 +98,7 @@
 克隆项目文件:
 
 ```bash
-git clone https://github.com/zuiidea/antd-admin.git
+git clone https://git@github.com:FeedHedgehog/ant-design-web.git
 ```
 
 进入目录安装依赖:
@@ -113,9 +116,6 @@ npm run dev
 打开 http://localhost:8000
 ```
 
-构建：
-[详情](https://github.com/zuiidea/antd-admin/issues/269)
-
 ```bash
 npm run build
 
@@ -132,18 +132,6 @@ npm run build:new
 npm run lint
 ```
 
-## FAQ
-
--   项目打包后如何部署？ [#269](https://github.com/zuiidea/antd-admin/issues/269)
--   如何做权限管理？ [#384](https://github.com/zuiidea/antd-admin/issues/384)
--   如何使用mock.js模拟接口，怎么使用线上接口？ [#348](https://github.com/zuiidea/antd-admin/issues/348)
--   如何使用Iconfont，如何使用本地的svg图标？ [#270](https://github.com/zuiidea/antd-admin/issues/270)
--   怎么按版本打包，上线时不影响正在访问的用户？ [#449](https://github.com/zuiidea/antd-admin/issues/449)
--   windows处理CRLF？[参考](http://blog.csdn.net/lysc_forever/article/details/42835203)
-
-    ```bash
-    git config --global core.autocrlf false
-    ```
 
 ## 参考
 
