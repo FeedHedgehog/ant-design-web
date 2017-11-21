@@ -10,9 +10,9 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 ## 目的
- -期望打造一套基于react，ant-design，dva于一体的、企业级后台管理系统
- -期望可以单纯由前端来解决用户权限，后端提供权限数据支持的一套完善的权限管理功能后台管理系统
- -期望可以在antd与dva的基础上，再次封装简单且可复用的基类组件，方便使用者简单接入，简单使用，简单拓展
+ -   期望打造一套基于react，ant-design，dva于一体的、企业级后台管理系统
+ -   期望可以单纯由前端来解决用户权限，后端提供权限数据支持的一套完善的权限管理功能后台管理系统
+ -   期望可以在antd与dva的基础上，再次封装简单且可复用的基类组件，方便使用者简单接入，简单使用，简单拓展
 
 演示地址 <http://huntjobs.cn>
 
@@ -23,38 +23,6 @@
 -   基于[dva](https://github.com/dvajs/dva)动态加载 Model 和路由，按需加载。
 -   使用[roadhog](https://github.com/sorrycc/roadhog)本地调试和构建，其中Mock功能实现脱离后端独立开发。
 -   浅度响应式设计。
-
-## 更新日志
-
-### 4.3.7
-
-`2017-10-30`
-
--     更新`chart`，新增[ECharts](https://github.com/ecomfe/echarts)，[highCharts](https://github.com/highcharts/highcharts)，[Recharts](https://github.com/recharts/recharts)演示。
-
-
-### 4.3.5
-
-`2017-09-04`
-
--     更新[dva](https://github.com/dvajs/dva)至`2.0.1`，感谢[@yangbin1994](https://github.com/yangbin1994)的[PR](https://github.com/zuiidea/antd-admin/pull/567)。
-
-### 4.3.4
-
-`2017-09-04`
-
--     更新[roadhog](https://github.com/sorrycc/roadhog)至`1.2.1`，修复闪屏问题。
--     修复build css未压缩[#529](https://github.com/zuiidea/antd-admin/issues/529)，classname未Hash[#477](https://github.com/zuiidea/antd-admin/issues/477)。
--     更新登录成功使用router跳转[#479](https://github.com/zuiidea/antd-admin/issues/479)。
-
-### 4.3.0
-
-`2017-07-30`
-
--     更新[roadhog](https://github.com/sorrycc/roadhog)至`1.0.0-beta.7`，得益于`webpack@3.4`，编译速度不减。
--     基于使用roadhog的dll插件，开发时编译耗时减半。
--     新增打包时按项目版本号生成文件目录。[#449](https://github.com/zuiidea/antd-admin/issues/449)
--     更新`eslint`，并适当修改了`.eslintrc`。
 
 
 ## 开发构建
@@ -132,12 +100,6 @@ npm run build:new
 npm run lint
 ```
 
-
-## 参考
-
-用户列表：<https://github.com/dvajs/dva/tree/master/examples/user-dashboard>
-
-dashboard设计稿：<https://dribbble.com/shots/3108122-Dashboard-Admin> （已征得作者同意）
 
 ## 截屏
 
