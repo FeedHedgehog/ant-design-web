@@ -5,7 +5,7 @@ import createHistory from 'history/createBrowserHistory'
 import 'babel-polyfill'
 import { Button, notification } from 'antd';
 
-
+// 提示登录的结果
 const openNotificationWithIcon = (type) => {
   notification[type]({
     message: '系统提示：',
