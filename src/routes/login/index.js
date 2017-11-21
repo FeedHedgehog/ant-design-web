@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'dva'
-import { Button, Row, Form, Input } from 'antd'
+import { Button, Row, Form, Input, Checkbox } from 'antd'
 import { config } from 'utils'
 import styles from './index.less'
 
@@ -22,6 +22,10 @@ const Login = ({
       }
       dispatch({ type: 'login/login', payload: values })
     })
+  }
+
+  function onChange(e) {
+    console.log(`checked = ${e.target.checked}`);
   }
 
   return (
@@ -53,7 +57,8 @@ const Login = ({
           <Button type="primary" size="large" onClick={handleOk} loading={loading.effects.login}>
             登录
           </Button>
-          <p>
+          <Checkbox onChange={onChange}>记住我</Checkbox>
+          <p>        
             忘记密码请联系管理员：028-373283372
           </p>
         </Row>
